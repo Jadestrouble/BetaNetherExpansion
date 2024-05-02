@@ -1,41 +1,36 @@
 {
   "schemaVersion": 1,
-  "id": "examplemod",
+  "id": "netherexpansion",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Nether Expansion",
+  "description": "A mod that adds Fortresses into Beta 1.7.3.",
   "authors": [
-    "Me!"
+    "Jadestrouble"
   ],
   "contact": {
-    "homepage": "https://glass-launcher.net/",
-    "sources": "https://github.com/calmilamsy/stationapi-example-mod"
+    "homepage": "https://github.com/Jadestrouble/BetaNetherExpansion",
+    "sources": "https://github.com/Jadestrouble/BetaNetherExpansion"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/examplemod/icon.png",
+  "icon": "assets/netherexpansion/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "net.glasslauncher.example.events.init.AchievementListener",
-      "net.glasslauncher.example.events.init.BlockListener",
-      "net.glasslauncher.example.events.init.ItemListener",
-      "net.glasslauncher.example.events.init.PlayerHandlerListener",
-      "net.glasslauncher.example.events.init.RecipeListener"
+      "jadestrouble.netherexpansion.blocks.NetherBrickBlocks",
+      "jadestrouble.netherexpansion.netherfortress.StructureBoundingBox",
+      "jadestrouble.netherexpansion.netherfortress.StructureNetherBridgePieces"
     ],
     "stationapi:event_bus_client": [
-      "net.glasslauncher.example.events.init.KeyBindingListener",
-      "net.glasslauncher.example.events.init.TextureListener",
-      "net.glasslauncher.example.events.ingame.KeyPressedListener"
+      "jadestrouble.netherexpansion.blocks.NetherBrickTextures"
     ],
     "stationapi:event_bus_server": [
-      "net.glasslauncher.example.events.init.ServerInitListener"
     ]
   },
   "mixins": [
-    "examplemod.mixins.json"
+    "netherexpansion.mixins.json"
   ],
 
   "depends": {

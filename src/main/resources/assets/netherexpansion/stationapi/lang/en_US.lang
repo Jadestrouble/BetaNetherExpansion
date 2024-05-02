@@ -1,0 +1,11 @@
+
+block.netherbricks.name=Nether Bricks
+block.netherbrick_fence.name=Nether Brick Fence
+block.netherbrick_stair.name=Nether Brick Stairs
+
+tile.netherbricks.name=Nether Bricks
+tile.netherbrick_fence.name=Nether Brick Fence
+tile.netherbrick_stair.name=Nether Brick Stairs
+tile.netherbrick.name=Nether Brick
+
+item.netherbrick.name=Nether Brick
