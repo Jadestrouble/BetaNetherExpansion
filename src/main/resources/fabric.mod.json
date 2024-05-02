@@ -19,12 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "jadestrouble.netherexpansion.blocks.NetherBrickBlocks",
-      "jadestrouble.netherexpansion.netherfortress.StructureBoundingBox",
-      "jadestrouble.netherexpansion.netherfortress.StructureNetherBridgePieces"
+      "jadestrouble.netherplus.blocks.NetherBrickBlocks"
     ],
     "stationapi:event_bus_client": [
-      "jadestrouble.netherexpansion.blocks.NetherBrickTextures"
+      "jadestrouble.netherplus.blocks.NetherBrickTextures"
     ],
     "stationapi:event_bus_server": [
     ]

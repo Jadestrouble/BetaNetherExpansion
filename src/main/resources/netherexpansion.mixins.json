@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "jadestrouble.netherexpansion.mixin",
+  "package": "jadestrouble.netherplus.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
