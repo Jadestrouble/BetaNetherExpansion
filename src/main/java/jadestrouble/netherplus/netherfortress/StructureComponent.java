@@ -2,7 +2,11 @@ package jadestrouble.netherplus.netherfortress;
 
 import jadestrouble.netherplus.blocks.NetherBrickBlocks;
 import net.minecraft.block.Block;
+import net.minecraft.block.entity.ChestBlockEntity;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
+import net.modificationstation.stationapi.api.block.BlockState;
 
 import java.util.Iterator;
 import java.util.List;
@@ -286,6 +290,7 @@ public abstract class StructureComponent {
 		}
 
 	}
+
 	protected void fillCurrentPositionBlocksDownwards(World var1, int var2, int var3, int var4, int var5, int var6, StructureBoundingBox var7) {
 		int var8 = this.getXWithOffset(var4, var6);
 		int var9 = this.getYWithOffset(var5);
@@ -295,7 +300,6 @@ public abstract class StructureComponent {
 				var1.method_154(var8, var9, var10, var2, var3);
 				--var9;
 			}
-
 		}
 	}
 }

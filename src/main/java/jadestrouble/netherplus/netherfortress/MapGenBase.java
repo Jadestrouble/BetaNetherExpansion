@@ -10,9 +10,6 @@ public class MapGenBase {
     protected Random rand = new Random();
     protected World worldObj;
 
-    public MapGenBase() {
-    }
-
     public void generate(class_51 var1, World var2, int var3, int var4, byte[] var5) {
         int var6 = this.field_1306_a;
         this.worldObj = var2;

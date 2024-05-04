@@ -13,8 +13,8 @@ public abstract class MapGenStructure extends MapGenBase {
 	protected HashMap coordMap = new HashMap();
 	public MapGenStructure() {
 	}
-	public void generate(class_51 var1, World var2, int var3, int var4, byte[] var5) {
-		super.generate(var1, var2, var3, var4, var5);
+	public void generate(class_51 var1, World arg2, int var3, int var4, byte[] var5) {
+		super.generate(var1, arg2, var3, var4, var5);
 	}
 
 	protected void recursiveGenerate(World var1, int var2, int var3, int var4, int var5, byte[] var6) {

@@ -4,6 +4,7 @@
   "package": "jadestrouble.netherplus.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "class_359mixin"
   ],
   "server": [
   ],
