@@ -19,7 +19,8 @@
   "environment": "*",
   "entrypoints": {
     "stationapi:event_bus": [
-      "jadestrouble.netherplus.blocks.NetherBrickBlocks"
+      "jadestrouble.netherplus.blocks.NetherBrickBlocks",
+      "jadestrouble.netherplus.blocks.NetherRecipes"
     ],
     "stationapi:event_bus_client": [
       "jadestrouble.netherplus.blocks.NetherBrickTextures"

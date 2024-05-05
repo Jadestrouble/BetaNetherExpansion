@@ -25,7 +25,7 @@ public class NetherBrickBlocks {
 
     @EventListener
     void registerBlocks(BlockRegistryEvent event) {
-        netherbrick = new TemplateBlock(NAMESPACE.id("netherbrick"), Material.STONE).setHardness(1.5F).setTranslationKey(NAMESPACE, "netherbricks");
+        netherbrick = new TemplateBlock(NAMESPACE.id("netherbrick"), Material.STONE).setHardness(2.0F).setTranslationKey(NAMESPACE, "netherbricks");
         netherbrick_stairs = new TemplateStairsBlock(NAMESPACE.id("netherbrick_stairs"),netherbrick).setTranslationKey(NAMESPACE, "netherbrick_stair");
         netherbrick_fence = new TemplateFenceBlock(NAMESPACE.id("netherbrick_fence"),1).setTranslationKey(NAMESPACE, "netherbrick_fence");
     }
